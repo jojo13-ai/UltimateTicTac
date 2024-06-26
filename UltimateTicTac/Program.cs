@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using UltimateTicTac.Models;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Welcome to the Tic Tac game!!!");
+
+var manager = new GameManager();
+manager.StartGame();
