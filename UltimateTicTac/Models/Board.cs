@@ -2,10 +2,11 @@ namespace UltimateTicTac.Models;
 
 public class Board
 {
-    private IReadOnlyList<Cell> Cells { get; }
+    private Cell[,] Cells { get; }
 
     public Board()
     {
-        Cells = new Cell[] { };
+        // TODO заполнять
+        Cells = new Cell[,] { };
     }
 }
